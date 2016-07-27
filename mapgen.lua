@@ -468,9 +468,9 @@ function cityscape.generate(minp, maxp, seed)
 		end
 
 		if cityscape.desolation > 0 then
-			data[ivm] = node("cityscape:car_broken")
+			data[ivm] = node("cityscape:canned_food")
 		else
-			data[ivm] = node("cityscape:car")
+			data[ivm] = node("cityscape:canned_food")
 		end
 	end
 
